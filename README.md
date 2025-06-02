@@ -1,6 +1,6 @@
-# Unlocking Smartphone Market Trends: A Data-Driven Analysis
+# Unlocking Smartphone Market Trends: A Data-Driven Analysis👨🏼‍💻📈
 
-## MS SQL Server was specifically employed for this project for initial data cleaning and insights drawing. Below are the detailed SQL queries that were utilized for performing the analysis.
+## MS SQL Server was specifically employed for this project for initial data cleaning and insights drawing. Below are the detailed SQL queries that were utilized for performing the analysis.🛢
 
 ### 1.-- using database
 use smartphone;
