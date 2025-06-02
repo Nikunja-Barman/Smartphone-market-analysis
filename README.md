@@ -232,3 +232,284 @@ ORDER BY
     primary_camera_front;
 
 ![image](https://github.com/user-attachments/assets/98727e2b-7798-41ef-b58e-827dbfa04548)
+
+### 13. -- What is the distribution of RAM and internal memory across different price ranges and brands?
+
+-- RAM Distribution Across Price Ranges and Brands
+
+SELECT 
+    brand_name,
+    CASE 
+        WHEN price < 10000 THEN 'Budget Phone'
+        WHEN price >= 10000 AND price < 30000 THEN 'Mid-Range Phone'
+		WHEN price >= 30000 AND price < 50000 THEN 'Upper Mid-Range Phone'
+		WHEN price >= 50000 THEN 'Flagship Phone'
+        ELSE 'Ultra-Luxury Phone'
+    END AS price_range,
+    AVG(ram_capacity) AS avg_ram,
+    MIN(ram_capacity) AS min_ram,
+    MAX(ram_capacity) AS max_ram
+FROM 
+    phone_data
+GROUP BY 
+    brand_name,
+    CASE 
+        WHEN price < 10000 THEN 'Budget Phone'
+        WHEN price >= 10000 AND price < 30000 THEN 'Mid-Range Phone'
+		WHEN price >= 30000 AND price < 50000 THEN 'Upper Mid-Range Phone'
+		WHEN price >= 50000 THEN 'Flagship Phone'
+        ELSE 'Ultra-Luxury Phone'
+    END;
+
+![image](https://github.com/user-attachments/assets/6d3d09fb-12ec-4615-b1d7-4a5b4fe33445)
+
+-- Internal Memory Distribution Across Price Ranges and Brands
+
+SELECT 
+    brand_name,
+    CASE 
+        WHEN price < 10000 THEN 'Budget Phone'
+        WHEN price >= 10000 AND price < 30000 THEN 'Mid-Range Phone'
+		WHEN price >= 30000 AND price < 50000 THEN 'Upper Mid-Range Phone'
+		WHEN price >= 50000 THEN 'Flagship Phone'
+        ELSE 'Ultra-Luxury Phone'
+    END AS price_range,
+    AVG(internal_memory) AS avg_internal_memory,
+    MIN(internal_memory) AS min_internal_memory,
+    MAX(internal_memory) AS max_internal_memory
+FROM 
+    phone_data
+GROUP BY 
+    brand_name,
+    CASE 
+        WHEN price < 10000 THEN 'Budget Phone'
+        WHEN price >= 10000 AND price < 30000 THEN 'Mid-Range Phone'
+		WHEN price >= 30000 AND price < 50000 THEN 'Upper Mid-Range Phone'
+		WHEN price >= 50000 THEN 'Flagship Phone'
+        ELSE 'Ultra-Luxury Phone'
+    END;
+
+![image](https://github.com/user-attachments/assets/987b63e2-bd5d-417e-95dc-665d6c0aed87)
+
+### 14. -- How does screen size and refresh rate affect the price and average rating of smartphones?
+
+-- Average Price and Average Rating by Screen Size Ranges
+
+SELECT 
+    CASE 
+        WHEN screen_size < 6.0 THEN 'Compact Phones'
+        WHEN screen_size >= 6.0 AND screen_size < 6.5 THEN 'Medium-Sized Phones'
+        WHEN screen_size >= 6.5 AND screen_size < 7.0 THEN 'Large Phone'
+        ELSE 'Foldable Phone'
+    END AS screen_size_range,
+    AVG(price) AS average_price,
+    AVG(avg_rating) AS average_rating
+FROM 
+    phone_data
+GROUP BY 
+    CASE 
+        WHEN screen_size < 6.0 THEN 'Compact Phones'
+        WHEN screen_size >= 6.0 AND screen_size < 6.5 THEN 'Medium-Sized Phones'
+        WHEN screen_size >= 6.5 AND screen_size < 7.0 THEN 'Large Phone'
+        ELSE 'Foldable Phone'
+    END;
+
+![image](https://github.com/user-attachments/assets/272560d3-5ad1-4ff2-b37c-5cdd5de429fe)
+
+-- Average Price and Average Rating by Refresh Rate Ranges
+
+SELECT 
+    CASE 
+        WHEN refresh_rate <= 60 THEN '60Hz'
+        WHEN refresh_rate > 60 AND refresh_rate <= 90 THEN '90Hz'
+        WHEN refresh_rate > 90 AND refresh_rate <= 120 THEN '120Hz'
+        ELSE '120+Hz'
+    END AS refresh_rate_range,
+    AVG(price) AS average_price,
+    AVG(avg_rating) AS average_rating
+FROM 
+    phone_data
+GROUP BY 
+    CASE 
+        WHEN refresh_rate <= 60 THEN '60Hz'
+        WHEN refresh_rate > 60 AND refresh_rate <= 90 THEN '90Hz'
+        WHEN refresh_rate > 90 AND refresh_rate <= 120 THEN '120Hz'
+        ELSE '120+Hz'
+    END;
+
+![image](https://github.com/user-attachments/assets/8f262934-6417-4231-8484-4890a3ba139d)
+
+-- Correlation Between Screen Size, Refresh Rate, Price, and Average Rating (Granular)
+
+SELECT 
+    screen_size,
+    refresh_rate,
+    AVG(price) AS average_price,
+    AVG(avg_rating) AS average_rating
+FROM 
+    phone_data
+GROUP BY 
+    screen_size,
+    refresh_rate
+ORDER BY
+    screen_size,
+    refresh_rate;
+
+![image](https://github.com/user-attachments/assets/644884fe-ed1d-4a28-abe1-174c09426180)
+
+### 15. -- What is the distribution of operating systems (OS) across different brands and price ranges, and how does OS relate to average rating?
+
+-- OS Distribution Across Brands and Price Ranges
+
+SELECT 
+    brand_name,
+    CASE 
+        WHEN price < 10000 THEN 'Budget Phone'
+        WHEN price >= 10000 AND price < 30000 THEN 'Mid-Range Phone'
+		WHEN price >= 30000 AND price < 50000 THEN 'Upper Mid-Range Phone'
+		WHEN price >= 50000 THEN 'Flagship Phone'
+        ELSE 'Ultra-Luxury Phone'
+    END AS price_range,
+    os,
+    COUNT(*) AS os_count
+FROM 
+    phone_data
+GROUP BY 
+    brand_name,
+    CASE 
+        WHEN price < 10000 THEN 'Budget Phone'
+        WHEN price >= 10000 AND price < 30000 THEN 'Mid-Range Phone'
+		WHEN price >= 30000 AND price < 50000 THEN 'Upper Mid-Range Phone'
+		WHEN price >= 50000 THEN 'Flagship Phone'
+        ELSE 'Ultra-Luxury Phone'
+    END,
+    os
+ORDER BY
+    brand_name,
+    price_range,
+    os;
+
+![image](https://github.com/user-attachments/assets/a9cbfb1f-fc0d-4baa-a1cc-32c677054e73)
+
+-- Average Rating by OS
+
+SELECT 
+    os,
+    AVG(avg_rating) AS average_rating
+FROM 
+    phone_data
+GROUP BY 
+    os;
+
+![image](https://github.com/user-attachments/assets/4d8f08db-1011-4c11-8a0f-1e500ddfbfab)
+
+-- Average Rating by OS and Price Range
+
+SELECT 
+    CASE 
+        WHEN price < 10000 THEN 'Budget Phone'
+        WHEN price >= 10000 AND price < 30000 THEN 'Mid-Range Phone'
+		WHEN price >= 30000 AND price < 50000 THEN 'Upper Mid-Range Phone'
+		WHEN price >= 50000 THEN 'Flagship Phone'
+        ELSE 'Ultra-Luxury Phone'
+    END AS price_range,
+    os,
+    AVG(avg_rating) AS average_rating
+FROM 
+    phone_data
+GROUP BY 
+    CASE 
+        WHEN price < 10000 THEN 'Budget Phone'
+        WHEN price >= 10000 AND price < 30000 THEN 'Mid-Range Phone'
+		WHEN price >= 30000 AND price < 50000 THEN 'Upper Mid-Range Phone'
+		WHEN price >= 50000 THEN 'Flagship Phone'
+        ELSE 'Ultra-Luxury Phone'
+    END,
+    os
+ORDER BY
+    price_range,
+    os;
+
+![image](https://github.com/user-attachments/assets/b31a24c5-51cb-4fa2-8826-551294dd75cc)
+
+### 16. -- How does the number of rear cameras relate to the price and average rating of smartphones
+
+-- Average Price and Average Rating by Number of Rear Cameras
+
+SELECT 
+    num_rear_cameras,
+    AVG(price) AS average_price,
+    AVG(avg_rating) AS average_rating
+FROM 
+    phone_data
+GROUP BY 
+    num_rear_cameras
+ORDER BY 
+    num_rear_cameras;
+
+![image](https://github.com/user-attachments/assets/f2eb1342-0fa3-4bac-92ec-267ef0307e9c)
+
+-- General Correlation between Number of Rear Cameras, Price, and Average Rating
+
+SELECT 
+    AVG(num_rear_cameras) AS avg_num_rear_cameras,
+    AVG(price) AS average_price,
+    AVG(avg_rating) AS average_rating
+FROM 
+    phone_data
+
+![image](https://github.com/user-attachments/assets/6d076521-8c48-4b79-a29f-c95de2d1155c)
+
+### 17. -- What is the relationship between resolution height, resolution width, and screen size. Also, how does screen resolution relate to price?
+
+-- Relationship Between Resolution Height, Resolution Width, and Screen Size
+
+SELECT 
+    AVG(resolution_height) AS avg_resolution_height,
+    AVG(resolution_width) AS avg_resolution_width,
+    AVG(screen_size) AS avg_screen_size
+FROM 
+    phone_data
+
+![image](https://github.com/user-attachments/assets/e49fc0d5-64f9-4315-b89e-85e5ee3db82d)
+
+-- Average Price by Screen Size Ranges (To see how screen size relates to price)
+
+SELECT 
+    CASE 
+        WHEN screen_size < 6.0 THEN 'Compact Phones'
+        WHEN screen_size >= 6.0 AND screen_size < 6.5 THEN 'Medium-Sized Phones'
+        WHEN screen_size >= 6.5 AND screen_size < 7.0 THEN 'Large Phone'
+        ELSE 'Foldable Phone'
+    END AS screen_size_range,
+    AVG(price) AS average_price
+FROM 
+    phone_data
+GROUP BY 
+    CASE 
+        WHEN screen_size < 6.0 THEN 'Compact Phones'
+        WHEN screen_size >= 6.0 AND screen_size < 6.5 THEN 'Medium-Sized Phones'
+        WHEN screen_size >= 6.5 AND screen_size < 7.0 THEN 'Large Phone'
+        ELSE 'Foldable Phone'
+    END;
+
+![image](https://github.com/user-attachments/assets/7ff2639b-e366-4ad5-b5ef-d10ee15fa6f5)
+
+--	Average Price by Resolution Height and Width (Showing the Avg price for every distinct pair of Resolution_height and Resolution_width
+
+SELECT 
+    resolution_height,
+    resolution_width,
+    AVG(price) AS average_price
+FROM 
+    phone_data
+GROUP BY 
+    resolution_height,
+    resolution_width
+ORDER BY
+    resolution_height,
+    resolution_width;
+
+![image](https://github.com/user-attachments/assets/6e4308d4-9920-499a-b3b4-5139b946ec48)
+
+
