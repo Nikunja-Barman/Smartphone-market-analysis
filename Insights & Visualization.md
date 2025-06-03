@@ -1,10 +1,10 @@
 # Unlocking Smartphone Market Trends: A Data-Driven Analysis 🕵👨‍💻
 
 ## 🎯Project Overview:
-### This Power BI project analyzes smartphone sales data to uncover key market trends and consumer insights. The goal was to create an interactive dashboard that visualizes crucial metrics like brand pricing, 5G adoption, and feature-to-customer satisfaction correlations (e.g., charging speed, cameras). This analysis provides actionable intelligence to guide strategic decisions in smartphone product development, marketing, and competitive strategy.
+This Power BI project analyzes smartphone sales data to uncover key market trends and consumer insights. The goal was to create an interactive dashboard that visualizes crucial metrics like brand pricing, 5G adoption, and feature-to-customer satisfaction correlations (e.g., charging speed, cameras). This analysis provides actionable intelligence to guide strategic decisions in smartphone product development, marketing, and competitive strategy.
 
 ## ❓Problem Statement:
-### This project aimed to conduct a comprehensive analysis of smartphone sales data to identify critical market trends, understand consumer preferences, and derive actionable insights. The primary goal was to develop an interactive Power BI dashboard that empowers stakeholders to quickly grasp key performance metrics, pricing dynamics, feature prevalence, and competitive positioning within the smartphone market, ultimately informing strategic decisions for product development, pricing, and marketing.
+This project aimed to conduct a comprehensive analysis of smartphone sales data to identify critical market trends, understand consumer preferences, and derive actionable insights. The primary goal was to develop an interactive Power BI dashboard that empowers stakeholders to quickly grasp key performance metrics, pricing dynamics, feature prevalence, and competitive positioning within the smartphone market, ultimately informing strategic decisions for product development, pricing, and marketing.
 
 ## 🔑What I did;
 •  Data Cleaning & Transformation: Utilized SQL for initial data querying and cleaning, followed by Power Query in Power BI for robust data transformation and preparation. 
