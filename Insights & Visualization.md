@@ -186,4 +186,5 @@ o	Marketing & Sales: Highlight RAM capacities like 8GB and 6GB as they appear to
 📍Analyzed diverse smartphone market metrics, including key performance indicators (KPIs), average price by brand, processor and 5G status distribution, charging range ratings, resolution-price correlation, and the impact of camera count and RAM capacity on price and user ratings.
 
 
+![image](https://github.com/user-attachments/assets/8daa4e7c-8400-42df-997b-b905ac9a41f6)
 
