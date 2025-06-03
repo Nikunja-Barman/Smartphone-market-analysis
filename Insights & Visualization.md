@@ -37,6 +37,8 @@ o	Pricing Strategy: 5G capability is a major value driver, justifying premium pr
 o	Market Trend: The rapid adoption of 5G suggests an increasingly tech-savvy customer base willing to pay for advanced features.
 o	Inventory Management: Focus on stocking phones with the Snapdragon 413 or similar popular processors.
 
+![image](https://github.com/user-attachments/assets/f9411ded-59fb-4b8a-81f3-f576c8384aa5)
+
 ### 2. Average Price by Brand (Bar Chart)
 
 ➤	What it Shows: A bar chart displaying the average price of smartphones for various brands, sorted in descending order.
@@ -52,6 +54,8 @@ o	Competitive Analysis: For mainstream brands, this chart provides a benchmark f
 o	Target Market Identification: Different brands appeal to different price segments. Businesses can use this to refine their marketing and sales efforts.
 o	Product Portfolio Optimization: Lower-priced brands might need to re-evaluate their value proposition or explore premium segments if profitability is a concern.
 
+![image](https://github.com/user-attachments/assets/00cf2d83-f323-4d9b-a2e3-3bb943d92fd6)
+
 ### 3. Processor & 5G Status (Pie Chart)
 
 ➤	What it Shows: A donut chart showing the distribution of processors, with a clear distinction between 5G and non-5G devices. Snapdragon (with 35.63% 5G status phone), Bionic (51.72% 5G status phone), Kirin (with 8.05% 5G status phone), etc.
@@ -64,6 +68,8 @@ o	Kirin has a relatively small 5G market share.
 o	Supply Chain & Sourcing: Understanding processor market share helps in negotiating with chip manufacturers and ensuring a stable supply.
 o	Product Development: Companies can align their product development with popular processor choices or identify gaps for niche processors.
 o	Competitive Intelligence: Knowing competitor processor usage helps in strategic planning.
+
+![image](https://github.com/user-attachments/assets/7a6f19dc-7e2e-48ee-9ff0-3cdf97fdc660)
 
 ### 4. Charging Range & Rating (Column Chart)
 
@@ -79,6 +85,8 @@ o	Product Feature Prioritization: ‘Less than 30W’ charging is a highly value
 o	Research & Development: Urgent need of invest in improving charging technology is necessary to enhance customer experience and ratings.
 o	Competitive Advantage: Offering superior charging speeds can give a competitive edge.
 
+![image](https://github.com/user-attachments/assets/3050ad42-944d-4cc9-bd83-2609ef9d06c5)
+
 ### 5. Resolution & Price (Scatter Plot)
 
 ➤	What it Shows: A scatter plot displaying smartphone resolution (width vs. height) against price, with each point representing a phone model.
@@ -91,6 +99,8 @@ o	Some very high-resolution phones are also very expensive, indicating a premium
 o	Product Strategy: Companies can decide on target resolution ranges based on their desired price segment. High-end phones can justify premium displays.
 o	Value Proposition: For mid-range phones, finding an optimal resolution that balances cost and customer satisfaction is key.
 o	Market Segmentation: Different resolution requirements cater to different user needs (e.g., professional users, gamers, casual users).
+
+![image](https://github.com/user-attachments/assets/3216c9f5-6a5a-4f7f-8583-fe03a898bc07)
 
 ### 6. Processor & Cores Comparison (Bubble Chart)
 
@@ -106,6 +116,8 @@ o	Component Sourcing: When selecting processors, consider not just performance b
 o	Product Quality: High-rated processors contribute to better overall product perception.
 o	Market Intelligence: Understanding which processors resonate well with users helps in making informed decisions about future product lines.
 
+![image](https://github.com/user-attachments/assets/daed5150-e178-4397-bf06-90b21777994a)
+
 ### 7. Battery Capacity & Rating (Matrix/Table)
 
 ➤	What it Shows: A matrix displaying average ratings for different battery capacities (e.g., 1821mAh, 2050mAh, 2230mAh to 4600mAh, 5000mAh, 6000mAh) across various brands. 
@@ -117,6 +129,8 @@ o	Some brands consistently receive lower ratings across all displayed battery ca
 ➤	Business Implication/Actionable Insight: 
 o	Product Development: Identify optimal battery capacities that lead to higher customer satisfaction for specific brands or product lines.
 o	Brand Performance: Analyze how battery performance impacts brand perception and ratings.
+
+![image](https://github.com/user-attachments/assets/1f53199f-1b1b-43e6-ab66-e0009dfddbee)
 
 ### 8. Camera vs Price vs Rating (Line Chart)
 
@@ -131,6 +145,8 @@ o	Phones with 1 or 2 rear cameras have significantly lower average prices and av
 ➤	Business Implication/Actionable Insight: 
 o	Product Development: Consider focusing on 3 rear cameras for a strong balance of price and customer satisfaction. Adding a fourth camera might increase cost without a proportional increase in user rating.
 o	Pricing Strategy: A higher number of rear cameras (up to 3) allows for premium pricing.
+
+![image](https://github.com/user-attachments/assets/ef8ba85a-667a-4fcc-86f0-c975b9ebe9be)
 
 ### 9. RAM vs Price vs Rating (Line & Column Chart)
 
@@ -148,6 +164,8 @@ o	Product Development: Consider offering smartphones with 8GB or 6GB RAM for a g
 o	Pricing Strategy: While very high RAM (12GB) can justify a premium price, it may not necessarily translate to the highest customer satisfaction.
 o	Target Market Identification: Phones with lower RAM capacities (1GB-4GB) likely cater to a budget-conscious segment, but businesses should be aware of the lower customer satisfaction associated with these models.
 o	Marketing & Sales: Highlight RAM capacities like 8GB and 6GB as they appear to be highly valued by users.
+
+![image](https://github.com/user-attachments/assets/3c586ffb-4f83-4607-9d33-f7ce9109db19)
 
 ## 🛠 Tools & Technologies used:
 ● Excel: For initial data understanding
