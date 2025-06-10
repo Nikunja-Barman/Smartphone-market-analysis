@@ -8,15 +8,10 @@ This project aimed to conduct a comprehensive analysis of smartphone sales data 
 
 ## 🔑What I did;
 ●  Data Cleaning & Transformation: Utilized SQL for initial data querying and cleaning, followed by Power Query in Power BI for robust data transformation and preparation. 
-
 ●  Data Visualization: Created intuitive and impactful visual representations to effectively communicate complex smartphone market trends and relationships. 
-
 ●  Dashboard Design Principles: Applied best practices in dashboard design to ensure clarity, interactivity, and a user-friendly experience for data exploration. 
-
 ●  Statistical Analysis (basic level): Performed basic statistical analysis, such as identifying averages, correlations, and distributions to derive meaningful insights from the sales data. 
-
 ●  Business Acumen: Translated raw data points into actionable business recommendations, demonstrating an understanding of market dynamics and strategic implications. 
-
 ●  Communication of Insights: Clearly articulated key findings, trends, and recommendations derived from the data analysis, making complex information accessible to stakeholders.
 
 ## 🔎Key Visualizations & Insights:
