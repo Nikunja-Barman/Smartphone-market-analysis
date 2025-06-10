@@ -26,6 +26,7 @@ This project aimed to conduct a comprehensive analysis of smartphone sales data 
 A summary of key metrics: Common Core (8-Octa core), Common Battery (5000mAh), Avg. Fast Charging (36W), Percent 5G (56%), 5G Status (Avg Price: $43,200.49), Not 5G (Avg Price: $18,916.53), Most Common Processor (Snapdragon 413).
 
 ➤	Key Insights: 
+
 o	The market shows a strong preference for octa-core processors and 5000mAh batteries.
 
 o	5G phones command a significantly higher average price than non-5G phones (more than double).
@@ -35,6 +36,7 @@ o	Over half of the current market (56%) is 5G enabled, indicating a strong adopt
 o	Snapdragon 413 is the most prevalent processor.
 
 ➤	Business Implication/Actionable Insight: 
+
 o	Product Development: Manufacturers should prioritize octa-core processors and 5000mAh batteries for new models.
 
 o	Pricing Strategy: 5G capability is a major value driver, justifying premium pricing. Businesses can leverage this for higher margins.
@@ -50,6 +52,7 @@ o	Inventory Management: Focus on stocking phones with the Snapdragon 413 or simi
 ➤	What it Shows: A bar chart displaying the average price of smartphones for various brands, sorted in descending order.
 
 ➤	Key Insights: 
+
 o	Vertu and Royole command exceptionally high average prices, indicating a luxury or niche market.
 
 o	Mainstream brands like Apple, Huawei, and Asus have significantly lower average prices, suggesting a broader market appeal.
@@ -57,6 +60,7 @@ o	Mainstream brands like Apple, Huawei, and Asus have significantly lower averag
 o	LG, and Tesla have the lowest average prices.
 
 ➤	Business Implication/Actionable Insight: 
+
 o	Market Positioning: Brands like Vertu and Royole should continue targeting premium segments with unique value propositions.
 
 o	Competitive Analysis: For mainstream brands, this chart provides a benchmark for pricing strategies relative to competitors.
@@ -72,11 +76,13 @@ o	Product Portfolio Optimization: Lower-priced brands might need to re-evaluate 
 ➤	What it Shows: A donut chart showing the distribution of processors, with a clear distinction between 5G and non-5G devices. Snapdragon (with 35.63% 5G status phone), Bionic (51.72% 5G status phone), Kirin (with 8.05% 5G status phone), etc.
 
 ➤	Key Insights: 
+
 o	Bionic processors dominate the 5G market share (51.72%), followed closely by Snapdragon (35.63%).
 
 o	Kirin has a relatively small 5G market share.
 
 ➤	Business Implication/Actionable Insight: 
+
 o	Supply Chain & Sourcing: Understanding processor market share helps in negotiating with chip manufacturers and ensuring a stable supply.
 
 o	Product Development: Companies can align their product development with popular processor choices or identify gaps for niche processors.
@@ -90,6 +96,7 @@ o	Competitive Intelligence: Knowing competitor processor usage helps in strategi
 ➤	What it Shows: A column chart showing the average customer rating for different charging ranges (Less than 30W, 30-59W, 60+W).
 
 ➤	Key Insights: 
+
 o	Phones with ‘Less than 30W’ charging have the highest average rating (7.37).
 
 o	Phones with ‘60+W’ charging also have a strong average rating (7.06).
@@ -97,6 +104,7 @@ o	Phones with ‘60+W’ charging also have a strong average rating (7.06).
 o	"30-59W" charging has a noticeably lower average rating (4.96).
 
 ➤ Business Implication/Actionable Insight: 
+
 o	Product Feature Prioritization: ‘Less than 30W’ charging is a highly valued feature by customers and directly impacting customer satisfaction. Higher charging range are gaining less popularity among customer which seems a peculiar case and need further in-depth analysis.
 
 o	Research & Development: Urgent need of invest in improving charging technology is necessary to enhance customer experience and ratings.
@@ -110,11 +118,13 @@ o	Competitive Advantage: Offering superior charging speeds can give a competitiv
 ➤	What it Shows: A scatter plot displaying smartphone resolution (width vs. height) against price, with each point representing a phone model.
 
 ➤	Key Insights: 
+
 o	There appears to be a general positive correlation: higher resolution tends to correlate with higher prices, especially at the higher end of the resolution spectrum.
 
 o	Some very high-resolution phones are also very expensive, indicating a premium for top-tier displays.
 
 ➤	Business Implication/Actionable Insight: 
+
 o	Product Strategy: Companies can decide on target resolution ranges based on their desired price segment. High-end phones can justify premium displays.
 
 o	Value Proposition: For mid-range phones, finding an optimal resolution that balances cost and customer satisfaction is key.
@@ -128,6 +138,7 @@ o	Market Segmentation: Different resolution requirements cater to different user
 ➤	What it Shows: A bubble chart comparing different processors based on the "Average Rating" along Y-axis and perhaps another metrics viz. “Num_cores” in Legend and “Average speed of processor” in Bubble size .
 
 ➤	Key Insights: 
+
 o	"Dimensity” processors appear to have the highest average ratings with Octa-core processor.
 
 o	"Snapdragon", "unisoc", “tiger”, “helio” have a wide range of ratings.
@@ -135,6 +146,7 @@ o	"Snapdragon", "unisoc", “tiger”, “helio” have a wide range of ratings.
 o	"Dimensity" and “kirin” appears to be best processor with best “Avg-rating”, “octa-core” and best “Average speed of the processor” in the whole range.
 
 ➤	Business Implication/Actionable Insight: 
+
 o	Component Sourcing: When selecting processors, consider not just performance but also their impact on overall customer satisfaction (as reflected in ratings).
 
 o	Product Quality: High-rated processors contribute to better overall product perception.
@@ -148,11 +160,13 @@ o	Market Intelligence: Understanding which processors resonate well with users h
 ➤	What it Shows: A matrix displaying average ratings for different battery capacities (e.g., 1821mAh, 2050mAh, 2230mAh to 4600mAh, 5000mAh, 6000mAh) across various brands. 
 
 ➤	Key Insights: 
+
 o	‘Leitz’ with 5000 mAh of battery has the highest ‘Avg rating of  9’ followed by ‘Sharp’ with 3730 mAh of battery with ‘Avg rating of  9’ and then ‘Lenovo’ with 5000-5600 mAh battery with ‘Avg rating of 9’.
 
 o	Some brands consistently receive lower ratings across all displayed battery capacities (e.g., 'sony', 'asus').
 
 ➤	Business Implication/Actionable Insight: 
+
 o	Product Development: Identify optimal battery capacities that lead to higher customer satisfaction for specific brands or product lines.
 
 o	Brand Performance: Analyze how battery performance impacts brand perception and ratings.
@@ -164,6 +178,7 @@ o	Brand Performance: Analyze how battery performance impacts brand perception an
 ➤	What it Shows: A line graph displaying the average price and average rating of smartphones based on the number of rear cameras.
 
 ➤	Key Insights: 
+
 o	Both average price and average rating generally increase with the number of rear cameras, peaking at 3 rear cameras.
 
 o	Phones with 3 rear cameras have the highest average rating (around 7.5) and are among the highest in average price (over 35K).
@@ -173,6 +188,7 @@ o	While the average price continues to rise slightly for 4 rear cameras, the ave
 o	Phones with 1 or 2 rear cameras have significantly lower average prices and average ratings compared to those with 3 or 4.
 
 ➤	Business Implication/Actionable Insight: 
+
 o	Product Development: Consider focusing on 3 rear cameras for a strong balance of price and customer satisfaction. Adding a fourth camera might increase cost without a proportional increase in user rating.
 
 o	Pricing Strategy: A higher number of rear cameras (up to 3) allows for premium pricing.
@@ -184,6 +200,7 @@ o	Pricing Strategy: A higher number of rear cameras (up to 3) allows for premium
 ➤	What it Shows: A column chart showing the average price and a line graph showing the average rating of smartphones based on their RAM capacity.
 
 ➤	Key Insights: 
+
 o	There isn't a direct linear relationship between RAM capacity and average price or average rating.
 
 o	Smartphones with 18GB of RAM command the highest average price (close to 90K) along with highest average rating of around 9.
@@ -195,6 +212,7 @@ o	Lower RAM capacities (e.g., 1GB, 2GB, 3GB, 4GB) generally correspond to much l
 o	There's a noticeable drop in both average price and average rating for RAM capacities of 2GB and 1GB.
 
 ➤	Business Implication/Actionable Insight: 
+
 o	Product Development: Consider offering smartphones with 8GB or 6GB RAM for a good balance of performance, customer satisfaction, and competitive pricing.
 
 o	Pricing Strategy: While very high RAM (12GB) can justify a premium price, it may not necessarily translate to the highest customer satisfaction.
