@@ -8,10 +8,15 @@ This project aimed to conduct a comprehensive analysis of smartphone sales data 
 
 ## 🔑What I did;
 ●  Data Cleaning & Transformation: Utilized SQL for initial data querying and cleaning, followed by Power Query in Power BI for robust data transformation and preparation. 
+
 ●  Data Visualization: Created intuitive and impactful visual representations to effectively communicate complex smartphone market trends and relationships. 
+
 ●  Dashboard Design Principles: Applied best practices in dashboard design to ensure clarity, interactivity, and a user-friendly experience for data exploration. 
+
 ●  Statistical Analysis (basic level): Performed basic statistical analysis, such as identifying averages, correlations, and distributions to derive meaningful insights from the sales data. 
+
 ●  Business Acumen: Translated raw data points into actionable business recommendations, demonstrating an understanding of market dynamics and strategic implications. 
+
 ●  Communication of Insights: Clearly articulated key findings, trends, and recommendations derived from the data analysis, making complex information accessible to stakeholders.
 
 ## 🔎Key Visualizations & Insights:
@@ -22,14 +27,20 @@ A summary of key metrics: Common Core (8-Octa core), Common Battery (5000mAh), A
 
 ➤	Key Insights: 
 o	The market shows a strong preference for octa-core processors and 5000mAh batteries.
+
 o	5G phones command a significantly higher average price than non-5G phones (more than double).
+
 o	Over half of the current market (56%) is 5G enabled, indicating a strong adoption rate.
+
 o	Snapdragon 413 is the most prevalent processor.
 
 ➤	Business Implication/Actionable Insight: 
 o	Product Development: Manufacturers should prioritize octa-core processors and 5000mAh batteries for new models.
+
 o	Pricing Strategy: 5G capability is a major value driver, justifying premium pricing. Businesses can leverage this for higher margins.
+
 o	Market Trend: The rapid adoption of 5G suggests an increasingly tech-savvy customer base willing to pay for advanced features.
+
 o	Inventory Management: Focus on stocking phones with the Snapdragon 413 or similar popular processors.
 
 ![image](https://github.com/user-attachments/assets/f9411ded-59fb-4b8a-81f3-f576c8384aa5)
